@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   TextEditingController _textEditingController = TextEditingController();
 
-  StreamSubscription<double> _subscription;
+  StreamSubscription<double>? _subscription;
 
   @override
   void initState() {
@@ -31,7 +31,7 @@ class _MyAppState extends State<MyApp> {
     super.dispose();
 
     // Remove listener
-    _subscription.cancel();
+    _subscription?.cancel();
   }
 
   @override
