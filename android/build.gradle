@@ -25,9 +25,7 @@ apply plugin: "com.android.library"
 apply plugin: "kotlin-android"
 
 android {
-    if (project.android.hasProperty("namespace")) {
-        namespace 'top.huic.perfect_volume_control.perfect_volume_control'
-    }
+    namespace 'top.huic.perfect_volume_control.perfect_volume_control'
 
     compileSdk = 34
 
