@@ -23,7 +23,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 30
-
+	namespace 'top.huic.perfect_volume_control.perfect_volume_control'
+	
     defaultConfig {
         minSdkVersion 16
     }
